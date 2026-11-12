@@ -177,3 +177,24 @@ body {
     font-size: 14px;
     margin-top: 60px;
 }
+
+/*Estilo tema escuro*/
+
+body.dark-mode{
+    background-color: black;
+    color: #e2e4e6;
+}
+body.darl-mode .cabecalho,
+body.darl-mode .rodape{
+    background-color: #030303;
+}
+body.dark-mode .titulo{
+    color: #38dbf8;
+}
+body.dark-mode .subtitulo{
+    color: #e2e4e6;
+}
+body.dark-mode .btn-tema{
+    color: #f1c40f;
+    border-color: #475569;
+}
